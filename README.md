@@ -59,6 +59,7 @@ Response:
 "message": "Instructor created successfully"
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 06_9779da92](https://github.com/manav-132/airtribe/assets/103658463/3cbf28d5-8c71-45ea-8bdb-854d5db88a4f)
 
 3.POST /addcourse:
 Description: Add a new course to the database.
@@ -80,6 +81,7 @@ Response:
 "message": "Course created successfully" 
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 05_909caa55](https://github.com/manav-132/airtribe/assets/103658463/28409a7c-ee81-4bd4-9b46-138155aed62d)
 
 
 4.PUT /updatecourse/:courseId:
@@ -99,6 +101,7 @@ Response:
 "message": "Course updated successfully" 
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 05_651ee755](https://github.com/manav-132/airtribe/assets/103658463/23373acd-032e-4a95-80c8-8ea41a78d6c5)
 
 
 5.POST /register/:courseId:
@@ -120,6 +123,7 @@ Response:
 "message": "Course Applied successfully"
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 22_23927438](https://github.com/manav-132/airtribe/assets/103658463/86a594f0-c4c4-48cd-b0fe-3631c1762975)
 
 6.PUT /updateleads/:leadId:
 Description: Update status of a lead.
@@ -135,11 +139,13 @@ Response:
 "message": "Lead updated successfully" 
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 23_9af028b0](https://github.com/manav-132/airtribe/assets/103658463/802545c3-b952-4a04-98ce-1b5c9dc0921b)
 
 7.GET /searchleads:
 Description: Search leads by name or email.
 Query Parameters: name (string), email (string).
 Response: List of leads matching the search criteria.
+![WhatsApp Image 2024-03-10 at 17 33 22_f498173b](https://github.com/manav-132/airtribe/assets/103658463/1ec5597c-20f3-4b9e-9f5d-03a512827b91)
 
 8.POST /comments:
 Description: Add a comment.
@@ -158,4 +164,5 @@ Response:
 "message": "Comment added successfully"
 }.
 ```
-![WhatsApp Image 2024-03-10 at 17 33 22_23927438](https://github.com/manav-132/airtribe/assets/103658463/86a594f0-c4c4-48cd-b0fe-3631c1762975)
+![WhatsApp Image 2024-03-10 at 17 33 23_af2ae21b](https://github.com/manav-132/airtribe/assets/103658463/62dc4ed1-eec6-499d-a6fa-5fcd36ffb67f)
+
