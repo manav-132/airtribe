@@ -31,46 +31,101 @@ This project aims to provide a scalable and efficient solution for managing cour
 
 
 # installation
-git clone:-git clone 
+git clone:- git clone https://github.com/manav-132/airtribe
+install dependencies:npm install
 
-
+# start
+npm run devstart :-start the server using nodemon
 
 # API Endpoints
-GET /:
+1.GET /:
 Description: Server status endpoint.
 Response: "Server started".
 
-POST /addinstructor:
+2.POST /addinstructor:
 Description: Add a new instructor to the database.
-Request Body: { "ins_id": 1, "name": "John Doe", "email": "john@example.com", "linked_in": "https://www.linkedin.com/in/johndoe" }.
-Response: { "message": "Instructor created successfully" }.
+Request Body:
+```
+{ 
+"ins_id": 1, 
+"name": "John Doe",
+"email": "john@example.com", 
+"linked_in": "https://www.linkedin.com/in/johndoe" 
+}.```
+Response:
+```{ 
+"message": "Instructor created successfully"
+}.```
 
-POST /addcourse:
+3.POST /addcourse:
 Description: Add a new course to the database.
-Request Body: { "course_id": 1, "ins_id": 1, "name": "Course Name", "max_seat": 20, "startdate": "2024-03-10", "status": "Active" }.
-Response: { "message": "Course created successfully" }.
+Request Body: 
+```{ 
+"course_id": 1, 
+"ins_id": 1,
+"name": "Course Name",
+"max_seat": 20,
+"startdate": "2024-03-10",
+"status": "Active"
+}.```
+Response: 
+```{ 
+"message": "Course created successfully" 
+}.```
 
-PUT /updatecourse/:courseId:
+4.PUT /updatecourse/:courseId:
 Description: Update details of a course.
-Request Body: { "name": "New Course Name", "max_seat": 30, "startdate": "2024-03-15", "status": "Inactive" }.
-Response: { "message": "Course updated successfully" }.
+Request Body: 
+```{ "name": "New Course Name"
+, "max_seat": 30,
+"startdate": "2024-03-15",
+"status": "Inactive"
+}.```
+Response:``` { 
+"message": "Course updated successfully" 
+}.```
 
-POST /register/:courseId:
+5.POST /register/:courseId:
 Description: Register for a course.
-Request Body: { "lead_id": 1, "name": "Lead Name", "email": "lead@example.com", "ph_number": "1234567890", "linked_in": "https://www.linkedin.com/in/leadname" }.
-Response: { "message": "Course Applied successfully" }.
+Request Body: 
+```{ 
+"lead_id": 1,
+"name": "Lead Name",
+"email": "lead@example.com",
+"ph_number": "1234567890",
+"linked_in": "https://www.linkedin.com/in/leadname" 
+}.```
+Response:
+```{
+"message": "Course Applied successfully"
+}.```
 
-PUT /updateleads/:leadId:
+6.PUT /updateleads/:leadId:
 Description: Update status of a lead.
-Request Body: { "status": "Accepted" }.
-Response: { "message": "Lead updated successfully" }.
+Request Body: 
+```{ 
+"status": "Accepted"
+}.```
+Response: 
+```{ 
+"message": "Lead updated successfully" 
+}.```
 
-GET /searchleads:
+7.GET /searchleads:
 Description: Search leads by name or email.
 Query Parameters: name (string), email (string).
 Response: List of leads matching the search criteria.
 
-POST /comments:
+8.POST /comments:
 Description: Add a comment.
-Request Body: { "comment_id": 1, "lead_id": 1, "instructor_id": 1, "comment": "This is a comment" }.
-Response: { "message": "Comment added successfully" }.
+Request Body:
+```{ 
+"comment_id": 1,
+"lead_id": 1, 
+"instructor_id": 1,
+"comment": "This is a comment"
+}.```
+Response:
+```{ 
+"message": "Comment added successfully"
+}.```
