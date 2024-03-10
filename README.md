@@ -1,4 +1,4 @@
-# airtribe
+# Airtribe
 This project is a backend application built using Node.js and Express.js for managing courses, instructors, leads, and comments within a learning management system (LMS). The application provides a set of API endpoints to perform various operations such as adding instructors and courses, registering leads for courses, updating course details and lead statuses, searching for leads, and adding comments.
 
 Features:
