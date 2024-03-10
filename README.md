@@ -158,3 +158,4 @@ Response:
 "message": "Comment added successfully"
 }.
 ```
+![WhatsApp Image 2024-03-10 at 17 33 22_23927438](https://github.com/manav-132/airtribe/assets/103658463/86a594f0-c4c4-48cd-b0fe-3631c1762975)
