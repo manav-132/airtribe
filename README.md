@@ -123,7 +123,8 @@ Response:
 "message": "Course Applied successfully"
 }.
 ```
-![WhatsApp Image 2024-03-10 at 17 33 22_23927438](https://github.com/manav-132/airtribe/assets/103658463/86a594f0-c4c4-48cd-b0fe-3631c1762975)
+![WhatsApp Image 2024-03-10 at 17 33 06_8cbad321](https://github.com/manav-132/airtribe/assets/103658463/9c670bf8-ca24-40f7-a835-eac12df710c0)
+
 
 6.PUT /updateleads/:leadId:
 Description: Update status of a lead.
